@@ -1,0 +1,198 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.slider .btn{
+  margin-top: 20px;
+  padding:0 50px;
+  border-radius: 10px;
+
+}
+.footer-text{
+  font-size: 20px;
+}
+
+.social-container{
+  width: 100%;
+  height: 100px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-container a{
+  color:#ffff;
+  font-size: 35px;
+  margin:0px 20px;
+}
+
+
+/*---------- Estilos del  Mapa----------*/
+.mapa {
+    padding: 15px ;
+    background:  #F0EDE5;
+    text-align: center;
+}
+.mapa h3{
+    font-size: 25px;
+}
+.mapa p{
+    text-align: justify;
+    text-align: center;
+  
+}
+.mapa a{
+	color: #000;
+}
+
+/*----------Estilos del tarjeta----------------------*/
+
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+    background: #9A6339; 
+}
+.tarjetas {
+    width: 100%;
+    text-align: right;
+    background: #9A6339; 
+    
+}
+.tarjetas img {
+  text-align: left;
+}
+
+
+
+
+/*-----------------estilos de especial--------------*/
+.especial{
+    background: #e61919 ;
+    text-align: center; color: #fff;
+}
+.programas__titulo{
+    font-size: 30px;
+      padding: 25px;
+}
+.especial__img{
+   width: 100%;  
+}
+.informacion{
+    margin-top: -6px;
+    background: #fff;
+    color: #000;
+}
+.especial__titulo{
+    font-size: 25px;
+    padding: 5px;
+}
+.especial__txt{
+   padding: 25px;
+    text-align: center;
+}
+.button{
+    padding: 15px;
+    margin: 15px;
+    font-size: 20px;
+  background: #21aedb;
+    border: 0;
+     cursor: pointer;
+     color: white;
+    font-weight: bold;
+}
+.button:hover {
+          box-shadow: 0 0px 15px 3px rgba(98, 199, 231, 0.9);  
+}
+.especial__columna1,.especial__columna2,.especial__columna3{
+ margin: 15px; 
+}
+.especial .contenedor{
+     display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+
+/*-----------------estilos de Galeria--------------*/
+
+.ofertas{
+  background: #000;
+}
+.ofertas__titulo{
+  padding: 25px;
+  text-align: center;
+  font-size: 30px;
+}
+.ofertas__img{
+  width: 100%;
+  filter: brightness(60%);
+}
+.ofertas__columna{
+  position: relative;
+}
+.ofertas__columna:hover .ofertas__img{
+  filter: brightness(100%);
+}
+.ofertas .contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ofertas__columna h4{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%)translateY(-50%);
+  color:#fff;
+  font-size: 30%;
+}
+@media(min-width:480px){
+  .destino__img{
+        width: 600px;
+       
+    }
+     .especial__columna1,.especial__columna2,.especial__columna3{
+        width: 90%;
+    }
+     .ofertas__columna h4{
+    font-size: 40px;
+}
+}
+
+@media(min-width:768px){
+   .especial__columna1,.especial__columna2{
+        width: 43%;
+    } 
+    .ofertas__columna{
+        width: 49.6%;
+       margin-left: 3px; 
+    }
+    .fondo__img{
+        padding:0px 0px 0px 5px;
+   }
+    .ofertas__columna{
+        width: 32%; 
+    }
+      .fondo__img{
+    padding:0px 20px 0px 20px;   
+}
+  }
+  @media(min-width:1024px){
+    .especial__columna1,.especial__columna2,.especial__columna3{
+    width: 20%;
+    } 
+  }
+
+  
